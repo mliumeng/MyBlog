@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ButtonAttributes">
+        <!-- Color of ripple animation -->
+        <attr name="mRippleColor" format="color|reference" />
+    </declare-styleable>
+</resources>
