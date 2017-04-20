@@ -94,7 +94,6 @@ public class RectangleButton extends RelativeLayout {
     }
 
 
-
     private void initView() {
         setBackgroundResource(R.drawable.rectangle_button_bg);
         textView = new TextView(getContext());
