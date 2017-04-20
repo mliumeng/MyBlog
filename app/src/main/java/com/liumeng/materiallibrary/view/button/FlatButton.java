@@ -47,7 +47,7 @@ public class FlatButton extends RelativeLayout {
     private int defWidth = 48;
     private int defHeight = 23;
     private int textColor = Color.parseColor("#000080");//deflate color
-    private float textSize = DensityUtil.sp2px(getContext(), 16f);//deflate color
+    private float textSize = DensityUtil.sp2px(getContext(), 16f);//deflate size
     private int rippleColor = Color.parseColor("#17434343");
     private String text;
     private int background;//此按钮不需要

@@ -16,13 +16,23 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
 
             <com.liumeng.materiallibrary.view.button.FlatButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Flat button"
-                app:mRippleColor="#1c00e6ff" />
+                android:textColor="#ff00ff"
+                app:mRippleColor="@color/rippleColor" />
+
+            <com.liumeng.materiallibrary.view.button.RectangleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rectangle Button"
+                android:textColor="#ffffff"
+                app:mRippleColor="@color/rippleColor" />
         </LinearLayout>
     </FrameLayout>
 
